@@ -1,0 +1,443 @@
+*{
+    box-sizing: border-box;
+    list-style:none ; 
+    margin: 0px;
+    padding: 0px;  
+}
+header{
+    padding: 45px;
+    text-align: center;
+    background: rgb(10, 105, 105);
+    color: antiquewhite;
+    width: 100%;
+}
+header h1{
+    font-size: 300%;
+} 
+header h4{
+    font-size: 20px;
+    text-align: right;
+}
+header h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 0px;
+}
+section h1{
+    padding: 18px;
+    text-align: center;
+    background-color: rgb(116, 224, 192);
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: rgb(44, 94, 80); 
+    color:white;
+    width: 100%;
+}
+nav{
+    border: #333;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+body {
+    background: rgb(46, 4, 4);
+}
+nav a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+nav a {
+    display: block;
+    display: inline;
+    margin: 0.5%;
+    padding: 1%;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3%;
+    width: 30%;
+    color:black;
+    font-size: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgba(3, 77, 80, 0.308);
+    background-color: rgb(104, 252, 215);
+}
+section h2{
+    padding: 16px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(109, 211, 126);
+}
+section h3{
+    padding: 14px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: rgb(128, 116, 77);
+}
+section p{
+    padding: 15px;
+    text-align: left;
+    color:white;
+    font-weight: 550;
+    font-size: larger;
+    font-size: medium;
+    background-color: rgb(30, 139, 112);
+    text-transform: none;  
+    width: 100%;  
+}
+footer a{
+    display: block;
+    color: white;
+    padding: 8px;
+    font-size: 20px;  
+    text-align: center;
+    text-decoration: none; 
+    background-color: black;
+}
+@media(max-width:360px){
+    header h1{
+        font-size: 200%;
+    }
+}
+ /*---------------------custom scrollerbar------------*/
+ ::-webkit-scrollbar{
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track{
+    background: #f8172a;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 5px;
+  }
+
+
+
+  * {
+    box-sizing: border-box;
+}
+body {
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: #ffffff;
+}
+
+a {
+    color: #222222;
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #FFD700;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+    h2 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #222222;
+    color: #FFD700;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 18px;
+    border-radius: 0;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.back-to-top:hover {
+    color: #222222;
+    background: #FFD700;
+}
+
+.back-to-top i {
+    padding-top: 10px;
+}
+
+/* ================================================= */
+/* ---------------- Nav Header CSS ----------------- */
+/* ================================================= */
+
+#header {
+    background: #222222;
+    position: relative;
+    height: 60px;
+}
+
+#header .logo {
+    padding-left: 25px;
+    left: 0;
+    display: inline-block;
+    position: absolute;
+    line-height: 55px;
+}
+
+#header .logo img {
+    max-height: 50px;
+}
+
+.main-menu {
+    padding: 0 130px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+}
+
+.main-menu ul li:hover a,
+.main-menu ul li.active a {
+    color: #ffffff;
+}
+
+.main-menu ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 0 10px;
+    line-height: 60px;
+    display: block;
+    transition: color .25s ease, background-color .25s ease;
+}
+.mobile-menu-btn {
+    color: #FFD700;
+    text-align: center;
+    font-size: 30px;
+    line-height: 57px;
+    display: none;
+    white-space: nowrap;
+}
+
+.mobile-menu-btn i {
+    cursor: pointer;
+}
+
+.mobile-menu {
+    display: none;
+    background: #2a2a2a;
+    border-top: #343434;
+}
+
+.mobile-menu .top-menu {
+    display: block;
+}
+
+.mobile-menu .top-menu ul {
+    padding: 0;
+}
+
+.mobile-menu .top-menu ul li {
+    display: block;
+    text-align: center;
+}
+
+.mobile-menu .top-menu ul li a {
+    padding: 0;
+    line-height: 40px;
+}
+
+.mobile-menu .top-menu ul li a:hover {
+    text-decoration: none;
+}
+
+.phone {
+    position: absolute;
+    padding-right: 25px;
+    padding-left: 10px;
+    right: 0;
+    color: #FFD700;
+    line-height: 60px;
+    cursor: pointer;
+    transition: color .25s ease;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.phone:hover {
+    color: #ffffff;
+}
+
+.phone i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+@media (max-width: 575.98px) {
+    #header .logo {
+        padding-left: 5px;
+    }
+
+    #header .phone {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        padding-right: 5px;
+        display: block;
+        text-align: right;
+        font-size: 20px;
+        line-height: 55px;
+    }
+
+    .main-menu {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 1199.98px) {
+    .main-menu {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+}
+
+/* ================================================= */
+/* --------------- Header Slider CSS --------------- */
+/* ================================================= */
+
+#headerSlider {
+    position: relative;
+    max-width: 100%;
+    max-height: calc(100vh - 60px);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#headerSlider img {
+    width: 100%;
+}
+
+#headerSlider .carousel-caption {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: rgba(0,0,0,.5);
+    z-index: 1;
+}
+
+#headerSlider .carousel-caption h1 {
+    color: #FFD700;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 767.98px) {
+    #headerSlider .carousel-caption h1 {
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 2.5px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #headerSlider .carousel-caption h1 {
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 2;
+    }
+}
+
+#headerSlider .animated {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+/* ================================================= */
+/* ------------------ Footer Style ----------------- */
+/* ================================================= */
+
+#footer {
+    position: relative;
+    padding: 30px 0 25px 0;
+    text-align: center;
+    background: #222222;
+}
+
+#footer .social {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#footer a {
+    color: #FFD700;
+}
+
+#footer a:hover {
+    color: #ffffff;
+}
+
+#footer .social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 5px 10px;
+    background: #FFD700;
+    color: #222222;
+    font-size: 20px;
+}
+
+#footer .social a:hover {
+    background: #ffffff;
+    color: #FFD700;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 18px;
+}
