@@ -1,5 +1,5 @@
 # Government-Polytechnic-Purnea
-# Er.Sonu Kumar (Student Of GP PURNEA)
+# Er. Sonu Kumar (Student Of GP PURNEA)
 👋 Hi, I’m Sonu Kumar
 - 👀 I’m interested in Web Development, A i and Software Development.
 - 🌱 I’m currently learning Full-Stack Web Development.
