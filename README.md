@@ -1,4 +1,5 @@
-# Government-Polytechnic-Purnea
+# Government-Polytechnic-Purnea 
+Project Name - E-Books Syllabus Practical & Assignment All Semester.
 # Er. Sonu Kumar (Student Of GP PURNEA)
 👋 Hi, I’m Sonu Kumar
 - 👀 I’m interested in Web Development, A i and Software Development.
